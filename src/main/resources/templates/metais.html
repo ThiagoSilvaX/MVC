@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1></h1>
+<hr>
+
+<table>
+  <thead>
+  <tr>
+    <th> Metais</th>
+    <th> Tabela de Preços </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="metais:${metais}">
+    <td th:text="${metais.nome}">Nome</td>
+    <td th:text="${metais.raridade}">Raridade</td>
+  </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
