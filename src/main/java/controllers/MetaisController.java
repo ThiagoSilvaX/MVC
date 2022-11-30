@@ -1,4 +1,4 @@
-package br.fatecrl.mvcdemo.controllers;
+package controllers;
 import br.fatecrl.mvcdemo.models.Metais;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
